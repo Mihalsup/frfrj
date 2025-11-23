@@ -1,0 +1,15 @@
+[
+{
+    "name":"madox",
+    "description": "Madox je 16 letý kluk štíhlé postavy a střední velikosti. Většinu času trávil v knihách, ve kterých chtěl být hlavní hrdina. Potom, co je teleportován se svými spolužáky a dostane starou knihu plnou alchymistických receptů, je odhodlán stát se hrdinou."
+},
+{
+    "name":"zlaty dotek",
+    "description": "Zlatý Dotek je mastička béžového zbarvení s vůní dřeviny. Má léčivé schopnosti a dokáže zahojit malá zranění. Recept: 3 pupeny topolu, hrst listů šťovíku, kousek kůry dubu. Postup: rozdrtit listy a kůru, přidat pryskyřici a míchat do krému." 
+},
+{
+    "name":"irder",
+    "description":"Irder je jihozápadní království, kterému vládne Voran Laestus. Hlavním městem je Equinox."
+}
+
+]

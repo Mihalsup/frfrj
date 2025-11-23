@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap&subset=latin-ext');
+
+
+body {
+  background-image: url("/image/scroll.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  min-height: 100vh;
+  margin: 0; 
+  font-family: 'Cinzel Decorative', serif;
+  
+}
+
+
+
+.header {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: sticky;
+    
+}
+.menu{
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.story {
+  text-align: center;
+  margin-top: 50px;
+  border: 5Px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+
+.text{
+  font-size: x-large;
+  word-spacing: 10px;
+  line-height: 1.8;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.Info{
+    text-align: center;
+  margin-top: 150px;
+  border: 5Px;
+  margin-left: 250px;
+  margin-right: 250px;
+   font-size: large;
+  word-spacing: 10px;
+  line-height: 1.8;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  z-index: 1000; 
+}
+
+
+

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap&subset=latin-ext');
+
+
+body {
+  background-image: url("/image/scroll.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  min-height: 100vh;
+  margin: 0; 
+  font-family: 'Cinzel Decorative', serif;
+  
+}
+
+
+
+.header {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: sticky;
+    
+}
+.menu{
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+ 
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
+.search {
+  width: 83%;              
+  max-width: 1100px;       
+  background: linear-gradient(90deg, #2e1f47, #3c295a);
+  border-top: 2px solid #d4af37;
+  border-bottom: 2px solid #d4af37;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.2rem 0.8rem;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+
+.search-box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search .navbar-brand {
+  display: block;
+  color: #d4af37;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  text-shadow: 0 0 6px rgba(212,175,55,0.5);
+}
+
+.search .form-control {
+  background-color: #2a1d3d;
+  border: 1px solid #d4af37;
+  color: #f8f0d9;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.9rem;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: inset 0 0 6px rgba(212,175,55,0.2);
+  transition: all 0.3s ease;
+}
+
+.search .form-control:focus {
+  box-shadow: 0 0 10px rgba(212,175,55,0.5);
+  border-color: #f2d673;
+}
+
+.search .btn {
+  border-radius: 50px;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  background-color: transparent;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.search .btn:hover {
+  background-color: #d4af37;
+  color: #2a1d3d;
+  box-shadow: 0 0 10px #d4af37;
+}
+
+#Stuff {
+  margin-top: 2rem;
+  padding: 1.5rem 2rem;
+  border-top: 2px solid #d4af37;
+  background: rgba(42, 29, 61, 0.85);
+  color: #f8f0d9; 
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+#Stuff h2 {
+  color: #d4af37; 
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+}
+
+#Stuff p {
+  font-size: 1rem;
+  color: #f8f0d9;
+}
+
+
+@media (min-width: 1200px) {
+  #Stuff {
+    max-width: 900px;
+  }
+}
